@@ -24,6 +24,12 @@
     <title>Foodera_Sass</title>
   </head>
   <body>
+    <!-- start scroll to top -->
+    <div class="scroll-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+    <!-- end scroll to top -->
+
     <!-- start navbar -->
     <nav>
       <div class="container">
@@ -31,7 +37,7 @@
           <img src="./img/logo.png" class="img-responsive" alt="logo" />
         </div>
         <div class="content">
-          <div class="links" ref="{links_ref}">
+          <div class="links">
             <ul>
               <li>
                 <a href="/">Home</a>
@@ -111,10 +117,7 @@
         <div class="image wow animate__slideInLeft" data-wow-duration="1s">
           <img src="./img/about_us.png" class="img-responsive" alt="" />
         </div>
-        <div
-          class="content wow animate__slideInRight"
-          data-wow-duration="1s"
-        >
+        <div class="content wow animate__slideInRight" data-wow-duration="1s">
           <h2>
             We pride ourselves on making real food from the best ingredients.
           </h2>
@@ -132,10 +135,7 @@
     <!-- start eatures -->
     <div class="features">
       <div class="container">
-        <div
-          class="content wow animate__slideInLeft"
-          data-wow-duration="1s"
-        >
+        <div class="content wow animate__slideInLeft" data-wow-duration="1s">
           <h2>
             We make everything by hand with the best possible ingredients.
           </h2>
@@ -336,9 +336,9 @@
 
     <!-- wow.js -->
     <script src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/wow.js"></script>
-    <script src="./js/nicescroll.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/wow-dist.js"></script>
+    <script src="./js/nicescroll-dist.js"></script>
+    <script src="./js/main-dist.js"></script>
     <script>
       new WOW().init();
       // $("body").niceScroll();

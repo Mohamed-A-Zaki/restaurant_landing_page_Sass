@@ -84,6 +84,26 @@ a {
   display: block;
 }
 
+/* strat scroll to top */
+.scroll-to-top {
+  position: fixed;
+  background-color: #ab344f;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  bottom: 20px;
+  right: -50px;
+  z-index: 100;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.scroll-to-top.show {
+  right: 20px;
+}
+
+/* end scroll to top */
 /* start nav bar section */
 nav {
   background-color: #fff;
